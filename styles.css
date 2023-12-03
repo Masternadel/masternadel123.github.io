@@ -1,0 +1,71 @@
+html {
+ font-family: 'Poppins', sans-serif;
+}
+ body {
+       
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('pk.jpeg') center/cover no-repeat; /* Replace 'your-background-image.jpg' with your actual image */
+            backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+            color: white; /* Adjust text color for better visibility */
+        }
+        
+      
+        .gta {
+          font-size: 1.6rem;
+        }
+        .link {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding: 20px;
+          
+          
+        }
+        
+        .link>a {
+          text-decoration: none;
+          color: #222;
+          font-size: 24px;
+          margin: ;: 5px 10px;
+          padding: 20px;
+          text-align: center;
+          border: 5px solid #222;
+          background-color: #fff;
+          border-radius: 5px;
+        }
+        .link>a:hover {
+          background-color: azure;
+        }
+/* Common styles for all screen sizes */
+
+/* Responsive styles for screens smaller than 768px (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+    /* Add your styles for smaller screens here */
+}
+
+/* Responsive styles for screens between 768px and 991px (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+  font-size: 100%;
+  display: flex;
+  height: 100%;
+
+  }
+    /* Add your styles for medium-sized screens here */
+}
+
+/* Responsive styles for screens larger than 992px (e.g., desktops) */
+@media only screen and (min-width: 1366px) {
+  html {
+    font-size: 100%;
+
+  }
+  .gta {
+    font-size: 3rem;
+  }
+    /* Add your styles for larger screens here */
+}
+
+/* You can add more media queries as needed for different breakpoints */
